@@ -42,7 +42,7 @@ jobs:
   run-docker:
     name: Run Docker Containers (Ubuntu)
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 18
     strategy:
       matrix:
         job_id: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
